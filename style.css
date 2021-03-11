@@ -2,7 +2,22 @@ img {
     border-radius: 50%;
     width: 400px
 }
-body {text-align: center;
- background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
 
+div {
+    text-align: center;
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
 
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    margin-top: -100px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    display: block;
+}
+
+li {
+    display: inline;
